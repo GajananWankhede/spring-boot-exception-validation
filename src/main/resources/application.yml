@@ -1,0 +1,48 @@
+#logging:
+#    file:
+#        name: app.log
+#    level:
+#        root: info
+server:
+  port: 7031
+spring:
+  #  cloud:
+  #    config:
+  #      server:
+  #        jdbc:
+  #          order: 1
+  #          sql: SELECT PROPERTIES.KEY, PROPERTIES.VALUE from PROPERTIES where APPLICATION=? and PROFILE=? and LABEL=?
+  application:
+    name: medsoc-validation-services
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: Aai@2070
+    url: jdbc:mysql://localhost:3306/validuserschema
+    username: root
+  #  flyway:
+  #    enabled: true
+  #    locations: classpath:db/migration
+  #    password: Aai@2070
+  #    schemas: parkingschema
+  #    user: root
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true
+  profiles:
+    active: jdbc
+  security:
+    user:
+      name: root
+      password: Aai@2070
+
+#eureka:
+#    client:
+#        enabled: true
+#        serviceUrl:
+logging:
+  file:
+    name:
+#            defaultZone: http://localhost:9000/eureka/
