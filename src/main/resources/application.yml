@@ -1,6 +1,6 @@
-#logging:
-#    file:
-#        name: app.log
+logging:
+    file:
+        name: app.log
 #    level:
 #        root: info
 server:
@@ -42,7 +42,4 @@ spring:
 #    client:
 #        enabled: true
 #        serviceUrl:
-logging:
-  file:
-    name:
 #            defaultZone: http://localhost:9000/eureka/
