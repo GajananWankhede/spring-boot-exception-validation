@@ -33,10 +33,9 @@ public class UserService {
         User user= repository.findByUserId(id);
         if(user!=null){
             return user;
-        }else{
-            throw new UserNotFoundException("user not found with id : "+id);
+        }else {
+            throw new UserNotFoundException("user not found with id : " + id);
         }
-
 
     }
 }

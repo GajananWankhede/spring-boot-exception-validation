@@ -1,2 +1,87 @@
-2023-04-30 00:23:18.970  WARN 24704 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s772ms862탎200ns).
-2023-04-30 08:38:40.272  WARN 24704 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h15m21s296ms289탎700ns).
+2023-05-02 00:21:47.955  WARN 24704 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m21s551ms106탎).
+2023-05-02 05:03:52.529  WARN 24704 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h42m4s574ms116탎600ns).
+2023-05-02 09:36:09.545  WARN 24704 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h32m20s796ms809탎100ns).
+2023-05-02 10:36:18.938  INFO 62388 --- [main] c.m.v.SpringValidationApplication        : Starting SpringValidationApplication using Java 1.8.0_362 on LAPTOP-ANBQRTHN with PID 62388 (D:\spring-project\spring-validation\target\classes started by Gajanan Wankhede in D:\spring-project\spring-validation)
+2023-05-02 10:36:18.939  INFO 62388 --- [main] c.m.v.SpringValidationApplication        : The following 1 profile is active: "jdbc"
+2023-05-02 10:36:19.337  INFO 62388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 10:36:19.373  INFO 62388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2023-05-02 10:36:20.071  INFO 62388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7031 (http)
+2023-05-02 10:36:20.078  INFO 62388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-02 10:36:20.078  INFO 62388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-02 10:36:20.407  INFO 62388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-02 10:36:20.407  INFO 62388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1430 ms
+2023-05-02 10:36:20.508  INFO 62388 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2023-05-02 10:36:20.508  INFO 62388 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-05-02 10:36:20.508  INFO 62388 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2023-05-02 10:36:20.534  INFO 62388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-02 10:36:20.943  INFO 62388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-02 10:36:20.973  INFO 62388 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/validuserschema (MySQL 8.0)
+2023-05-02 10:36:21.017  INFO 62388 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.012s)
+2023-05-02 10:36:21.017  WARN 62388 --- [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2023-05-02 10:36:21.025  INFO 62388 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `validuserschema`: << Empty Schema >>
+2023-05-02 10:36:21.027  INFO 62388 --- [main] o.f.core.internal.command.DbMigrate      : Schema `validuserschema` is up to date. No migration necessary.
+2023-05-02 10:36:21.087  INFO 62388 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 10:36:21.135  INFO 62388 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-02 10:36:21.263  INFO 62388 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 10:36:21.347  INFO 62388 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-02 10:36:21.784  INFO 62388 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 10:36:21.790  INFO 62388 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 10:36:22.063  WARN 62388 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 10:36:22.423  INFO 62388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7031 (http) with context path ''
+2023-05-02 10:36:22.429  INFO 62388 --- [main] c.m.v.SpringValidationApplication        : Started SpringValidationApplication in 4.765 seconds (JVM running for 6.229)
+2023-05-02 10:40:24.298  INFO 48136 --- [main] c.m.v.SpringValidationApplication        : Starting SpringValidationApplication using Java 1.8.0_362 on LAPTOP-ANBQRTHN with PID 48136 (D:\spring-project\spring-validation\target\classes started by Gajanan Wankhede in D:\spring-project\spring-validation)
+2023-05-02 10:40:24.300  INFO 48136 --- [main] c.m.v.SpringValidationApplication        : The following 1 profile is active: "jdbc"
+2023-05-02 10:40:24.640  INFO 48136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 10:40:24.668  INFO 48136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-05-02 10:40:25.267  INFO 48136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7031 (http)
+2023-05-02 10:40:25.274  INFO 48136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-02 10:40:25.274  INFO 48136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-02 10:40:25.687  INFO 48136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-02 10:40:25.687  INFO 48136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2023-05-02 10:40:25.781  INFO 48136 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2023-05-02 10:40:25.781  INFO 48136 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-05-02 10:40:25.781  INFO 48136 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2023-05-02 10:40:25.805  INFO 48136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-02 10:40:26.068  INFO 48136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-02 10:40:26.088  INFO 48136 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/validuserschema (MySQL 8.0)
+2023-05-02 10:40:26.119  INFO 48136 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.010s)
+2023-05-02 10:40:26.119  WARN 48136 --- [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2023-05-02 10:40:26.127  INFO 48136 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `validuserschema`: << Empty Schema >>
+2023-05-02 10:40:26.128  INFO 48136 --- [main] o.f.core.internal.command.DbMigrate      : Schema `validuserschema` is up to date. No migration necessary.
+2023-05-02 10:40:26.171  INFO 48136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 10:40:26.204  INFO 48136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-02 10:40:26.286  INFO 48136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 10:40:26.340  INFO 48136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-02 10:40:26.718  INFO 48136 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 10:40:26.724  INFO 48136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 10:40:26.948  WARN 48136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 10:40:27.264  INFO 48136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7031 (http) with context path ''
+2023-05-02 10:40:27.271  INFO 48136 --- [main] c.m.v.SpringValidationApplication        : Started SpringValidationApplication in 3.22 seconds (JVM running for 3.675)
+2023-05-02 10:44:36.493  INFO 57448 --- [main] c.m.v.SpringValidationApplication        : Starting SpringValidationApplication using Java 1.8.0_362 on LAPTOP-ANBQRTHN with PID 57448 (D:\spring-project\spring-validation\target\classes started by Gajanan Wankhede in D:\spring-project\spring-validation)
+2023-05-02 10:44:36.494  INFO 57448 --- [main] c.m.v.SpringValidationApplication        : The following 1 profile is active: "jdbc"
+2023-05-02 10:44:36.944  INFO 57448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 10:44:36.971  INFO 57448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-05-02 10:44:37.628  INFO 57448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7031 (http)
+2023-05-02 10:44:37.638  INFO 57448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-02 10:44:37.638  INFO 57448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-02 10:44:38.078  INFO 57448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-02 10:44:38.078  INFO 57448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1523 ms
+2023-05-02 10:44:38.247  INFO 57448 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2023-05-02 10:44:38.247  INFO 57448 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-05-02 10:44:38.247  INFO 57448 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2023-05-02 10:44:38.281  INFO 57448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-02 10:44:38.597  INFO 57448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-02 10:44:38.620  INFO 57448 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/validuserschema (MySQL 8.0)
+2023-05-02 10:44:38.649  INFO 57448 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.009s)
+2023-05-02 10:44:38.649  WARN 57448 --- [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2023-05-02 10:44:38.657  INFO 57448 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `validuserschema`: << Empty Schema >>
+2023-05-02 10:44:38.658  INFO 57448 --- [main] o.f.core.internal.command.DbMigrate      : Schema `validuserschema` is up to date. No migration necessary.
+2023-05-02 10:44:38.719  INFO 57448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 10:44:38.745  INFO 57448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-02 10:44:38.840  INFO 57448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 10:44:38.913  INFO 57448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-02 10:44:39.247  INFO 57448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 10:44:39.254  INFO 57448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 10:44:39.505  WARN 57448 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 10:44:39.912  INFO 57448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7031 (http) with context path ''
+2023-05-02 10:44:39.917  INFO 57448 --- [main] c.m.v.SpringValidationApplication        : Started SpringValidationApplication in 3.668 seconds (JVM running for 4.186)
