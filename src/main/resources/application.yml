@@ -19,12 +19,7 @@ spring:
     password: Aai@2070
     url: jdbc:mysql://localhost:3306/validuserschema
     username: root
-  #  flyway:
-  #    enabled: true
-  #    locations: classpath:db/migration
-  #    password: Aai@2070
-  #    schemas: parkingschema
-  #    user: root
+
   jpa:
     generate-ddl: true
     properties:
@@ -43,3 +38,11 @@ spring:
 #        enabled: true
 #        serviceUrl:
 #            defaultZone: http://localhost:9000/eureka/
+
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    password: Aai@2070
+    schemas: validuserschema
+    user: root
